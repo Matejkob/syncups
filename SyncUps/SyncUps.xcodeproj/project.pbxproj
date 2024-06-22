@@ -21,21 +21,26 @@
 		CA350CB7298450BF00434F8A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CAA298450BF00434F8A /* Models.swift */; };
 		CA350CB8298450BF00434F8A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CAB298450BF00434F8A /* Helpers.swift */; };
 		CA350CB9298450BF00434F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA350CAC298450BF00434F8A /* Assets.xcassets */; };
-		CA350CBC298450E700434F8A /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = CA350CBB298450E700434F8A /* SwiftUINavigation */; };
-		CA350CBF2984510200434F8A /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = CA350CBE2984510200434F8A /* IdentifiedCollections */; };
-		CA350CC22984511300434F8A /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = CA350CC12984511300434F8A /* Tagged */; };
-		CA350CC52984515C00434F8A /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = CA350CC42984515C00434F8A /* Dependencies */; };
 		CA350CCA2984518200434F8A /* RecordMeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CC62984518200434F8A /* RecordMeetingTests.swift */; };
 		CA350CCB2984518200434F8A /* SyncUpsListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CC72984518200434F8A /* SyncUpsListTests.swift */; };
 		CA350CCC2984518200434F8A /* SyncUpFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CC82984518200434F8A /* SyncUpFormTests.swift */; };
 		CA350CCD2984518200434F8A /* SyncUpDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CC92984518200434F8A /* SyncUpDetailTests.swift */; };
 		CA350CCF2984518A00434F8A /* SyncUpsListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CCE2984518A00434F8A /* SyncUpsListUITests.swift */; };
 		CA350CD2298452F300434F8A /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA350CD1298452F300434F8A /* ding.wav */; };
-		CAC7A59E2ABA374500985FC1 /* ConcurrencyExtras in Frameworks */ = {isa = PBXBuildFile; productRef = CAC7A59D2ABA374500985FC1 /* ConcurrencyExtras */; };
+		CA472C1B2C264418009FF124 /* CustomDump in Frameworks */ = {isa = PBXBuildFile; productRef = CA472C1A2C264418009FF124 /* CustomDump */; };
+		CA5B316A2C2645C0009CBDC9 /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B31692C2645C0009CBDC9 /* SwiftUINavigation */; };
+		CA5B316C2C2645C0009CBDC9 /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B316B2C2645C0009CBDC9 /* IdentifiedCollections */; };
+		CA5B316E2C2645C0009CBDC9 /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B316D2C2645C0009CBDC9 /* Tagged */; };
+		CA5B31702C2645C0009CBDC9 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B316F2C2645C0009CBDC9 /* Dependencies */; };
+		CA5B31722C2645C1009CBDC9 /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B31712C2645C1009CBDC9 /* DependenciesMacros */; };
+		CA5B31742C2645C1009CBDC9 /* ConcurrencyExtras in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B31732C2645C1009CBDC9 /* ConcurrencyExtras */; };
+		CA5B31762C2645C9009CBDC9 /* TestingDynamicOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B31752C2645C9009CBDC9 /* TestingDynamicOverlay */; };
+		CA5B31782C2645C9009CBDC9 /* CustomDump in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B31772C2645C9009CBDC9 /* CustomDump */; };
+		CA5B317A2C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B31792C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift */; };
+		CA5B317C2C2722A1009CBDC9 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B317B2C2722A1009CBDC9 /* Tags.swift */; };
+		CA8A793F2C261DE800740E39 /* ModernAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A793E2C261DE800740E39 /* ModernAppTests.swift */; };
 		CAC7A5A12ABA374D00985FC1 /* ConcurrencyExtras in Frameworks */ = {isa = PBXBuildFile; productRef = CAC7A5A02ABA374D00985FC1 /* ConcurrencyExtras */; };
 		CAC7A5A32ABA375800985FC1 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC7A5A22ABA375800985FC1 /* BaseTestCase.swift */; };
-		DC53DCC02AFEB89300668ED8 /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = DC53DCBF2AFEB89300668ED8 /* DependenciesMacros */; };
-		DC561EB52AEC5D2F004DB7A3 /* XCTestDynamicOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = DC561EB42AEC5D2F004DB7A3 /* XCTestDynamicOverlay */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +84,9 @@
 		CA350CC92984518200434F8A /* SyncUpDetailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncUpDetailTests.swift; sourceTree = "<group>"; };
 		CA350CCE2984518A00434F8A /* SyncUpsListUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncUpsListUITests.swift; sourceTree = "<group>"; };
 		CA350CD1298452F300434F8A /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		CA5B31792C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSyncUpDetailTests.swift; sourceTree = "<group>"; };
+		CA5B317B2C2722A1009CBDC9 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		CA8A793E2C261DE800740E39 /* ModernAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernAppTests.swift; sourceTree = "<group>"; };
 		CAC7A5A22ABA375800985FC1 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,13 +95,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC7A59E2ABA374500985FC1 /* ConcurrencyExtras in Frameworks */,
-				CA350CC22984511300434F8A /* Tagged in Frameworks */,
-				CA350CBC298450E700434F8A /* SwiftUINavigation in Frameworks */,
-				CA350CBF2984510200434F8A /* IdentifiedCollections in Frameworks */,
-				DC53DCC02AFEB89300668ED8 /* DependenciesMacros in Frameworks */,
-				DC561EB52AEC5D2F004DB7A3 /* XCTestDynamicOverlay in Frameworks */,
-				CA350CC52984515C00434F8A /* Dependencies in Frameworks */,
+				CA5B316E2C2645C0009CBDC9 /* Tagged in Frameworks */,
+				CA5B31742C2645C1009CBDC9 /* ConcurrencyExtras in Frameworks */,
+				CA5B31762C2645C9009CBDC9 /* TestingDynamicOverlay in Frameworks */,
+				CA5B31782C2645C9009CBDC9 /* CustomDump in Frameworks */,
+				CA5B316A2C2645C0009CBDC9 /* SwiftUINavigation in Frameworks */,
+				CA5B31722C2645C1009CBDC9 /* DependenciesMacros in Frameworks */,
+				CA5B316C2C2645C0009CBDC9 /* IdentifiedCollections in Frameworks */,
+				CA5B31702C2645C0009CBDC9 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC7A5A12ABA374D00985FC1 /* ConcurrencyExtras in Frameworks */,
+				CA472C1B2C264418009FF124 /* CustomDump in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,10 +169,13 @@
 			children = (
 				CA1D22E92991BC7000B529DE /* AppTests.swift */,
 				CAC7A5A22ABA375800985FC1 /* BaseTestCase.swift */,
+				CA8A793E2C261DE800740E39 /* ModernAppTests.swift */,
+				CA5B31792C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift */,
 				CA350CC62984518200434F8A /* RecordMeetingTests.swift */,
 				CA350CC92984518200434F8A /* SyncUpDetailTests.swift */,
 				CA350CC82984518200434F8A /* SyncUpFormTests.swift */,
 				CA350CC72984518200434F8A /* SyncUpsListTests.swift */,
+				CA5B317B2C2722A1009CBDC9 /* Tags.swift */,
 			);
 			path = SyncUpsTests;
 			sourceTree = "<group>";
@@ -218,13 +231,14 @@
 			);
 			name = SyncUps;
 			packageProductDependencies = (
-				CA350CBB298450E700434F8A /* SwiftUINavigation */,
-				CA350CBE2984510200434F8A /* IdentifiedCollections */,
-				CA350CC12984511300434F8A /* Tagged */,
-				CA350CC42984515C00434F8A /* Dependencies */,
-				CAC7A59D2ABA374500985FC1 /* ConcurrencyExtras */,
-				DC561EB42AEC5D2F004DB7A3 /* XCTestDynamicOverlay */,
-				DC53DCBF2AFEB89300668ED8 /* DependenciesMacros */,
+				CA5B31692C2645C0009CBDC9 /* SwiftUINavigation */,
+				CA5B316B2C2645C0009CBDC9 /* IdentifiedCollections */,
+				CA5B316D2C2645C0009CBDC9 /* Tagged */,
+				CA5B316F2C2645C0009CBDC9 /* Dependencies */,
+				CA5B31712C2645C1009CBDC9 /* DependenciesMacros */,
+				CA5B31732C2645C1009CBDC9 /* ConcurrencyExtras */,
+				CA5B31752C2645C9009CBDC9 /* TestingDynamicOverlay */,
+				CA5B31772C2645C9009CBDC9 /* CustomDump */,
 			);
 			productName = SyncUps;
 			productReference = CA350C712984506E00434F8A /* SyncUps.app */;
@@ -246,6 +260,7 @@
 			name = SyncUpsTests;
 			packageProductDependencies = (
 				CAC7A5A02ABA374D00985FC1 /* ConcurrencyExtras */,
+				CA472C1A2C264418009FF124 /* CustomDump */,
 			);
 			productName = SyncUpsTests;
 			productReference = CA350C812984506F00434F8A /* SyncUpsTests.xctest */;
@@ -310,6 +325,7 @@
 				CA350CC32984515C00434F8A /* XCRemoteSwiftPackageReference "swift-dependencies" */,
 				CAC7A59C2ABA374500985FC1 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */,
 				DC561EB32AEC5D2F004DB7A3 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */,
+				CA472C192C264418009FF124 /* XCRemoteSwiftPackageReference "swift-custom-dump" */,
 			);
 			productRefGroup = CA350C722984506E00434F8A /* Products */;
 			projectDirPath = "";
@@ -372,10 +388,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8A793F2C261DE800740E39 /* ModernAppTests.swift in Sources */,
 				CA350CCD2984518200434F8A /* SyncUpDetailTests.swift in Sources */,
 				CAC7A5A32ABA375800985FC1 /* BaseTestCase.swift in Sources */,
 				CA350CCA2984518200434F8A /* RecordMeetingTests.swift in Sources */,
 				CA350CCB2984518200434F8A /* SyncUpsListTests.swift in Sources */,
+				CA5B317C2C2722A1009CBDC9 /* Tags.swift in Sources */,
+				CA5B317A2C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift in Sources */,
 				CA1D22EA2991BC7000B529DE /* AppTests.swift in Sources */,
 				CA350CCC2984518200434F8A /* SyncUpFormTests.swift in Sources */,
 			);
@@ -647,7 +666,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SyncUps";
+				TEST_TARGET_NAME = SyncUps;
 			};
 			name = Debug;
 		};
@@ -671,7 +690,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SyncUps";
+				TEST_TARGET_NAME = SyncUps;
 			};
 			name = Release;
 		};
@@ -749,6 +768,14 @@
 				minimumVersion = 1.1.1;
 			};
 		};
+		CA472C192C264418009FF124 /* XCRemoteSwiftPackageReference "swift-custom-dump" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-custom-dump.git";
+			requirement = {
+				branch = "swift-testing";
+				kind = branch;
+			};
+		};
 		CAC7A59C2ABA374500985FC1 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-concurrency-extras";
@@ -761,52 +788,62 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/xctest-dynamic-overlay.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = "swift-testing";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CA350CBB298450E700434F8A /* SwiftUINavigation */ = {
+		CA472C1A2C264418009FF124 /* CustomDump */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA472C192C264418009FF124 /* XCRemoteSwiftPackageReference "swift-custom-dump" */;
+			productName = CustomDump;
+		};
+		CA5B31692C2645C0009CBDC9 /* SwiftUINavigation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CA350CBA298450E700434F8A /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
 			productName = SwiftUINavigation;
 		};
-		CA350CBE2984510200434F8A /* IdentifiedCollections */ = {
+		CA5B316B2C2645C0009CBDC9 /* IdentifiedCollections */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CA350CBD2984510200434F8A /* XCRemoteSwiftPackageReference "swift-identified-collections" */;
 			productName = IdentifiedCollections;
 		};
-		CA350CC12984511300434F8A /* Tagged */ = {
+		CA5B316D2C2645C0009CBDC9 /* Tagged */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CA350CC02984511300434F8A /* XCRemoteSwiftPackageReference "swift-tagged" */;
 			productName = Tagged;
 		};
-		CA350CC42984515C00434F8A /* Dependencies */ = {
+		CA5B316F2C2645C0009CBDC9 /* Dependencies */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CA350CC32984515C00434F8A /* XCRemoteSwiftPackageReference "swift-dependencies" */;
 			productName = Dependencies;
 		};
-		CAC7A59D2ABA374500985FC1 /* ConcurrencyExtras */ = {
+		CA5B31712C2645C1009CBDC9 /* DependenciesMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA350CC32984515C00434F8A /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesMacros;
+		};
+		CA5B31732C2645C1009CBDC9 /* ConcurrencyExtras */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CAC7A59C2ABA374500985FC1 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */;
 			productName = ConcurrencyExtras;
+		};
+		CA5B31752C2645C9009CBDC9 /* TestingDynamicOverlay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC561EB32AEC5D2F004DB7A3 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */;
+			productName = TestingDynamicOverlay;
+		};
+		CA5B31772C2645C9009CBDC9 /* CustomDump */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA472C192C264418009FF124 /* XCRemoteSwiftPackageReference "swift-custom-dump" */;
+			productName = CustomDump;
 		};
 		CAC7A5A02ABA374D00985FC1 /* ConcurrencyExtras */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CAC7A59C2ABA374500985FC1 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */;
 			productName = ConcurrencyExtras;
-		};
-		DC53DCBF2AFEB89300668ED8 /* DependenciesMacros */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA350CC32984515C00434F8A /* XCRemoteSwiftPackageReference "swift-dependencies" */;
-			productName = DependenciesMacros;
-		};
-		DC561EB42AEC5D2F004DB7A3 /* XCTestDynamicOverlay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DC561EB32AEC5D2F004DB7A3 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */;
-			productName = XCTestDynamicOverlay;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

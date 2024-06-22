@@ -4,7 +4,6 @@ import Dependencies
 import DependenciesMacros
 import SwiftUI
 import SwiftUINavigation
-import XCTestDynamicOverlay
 
 @MainActor
 @Observable
@@ -28,18 +27,22 @@ final class SyncUpDetailModel {
   @ObservationIgnored
   @Dependency(\.uuid) var uuid
 
-  @DependencyEndpoint
   @ObservationIgnored
-  var onConfirmDeletion: () -> Void
-  @DependencyEndpoint
+  var onConfirmDeletion: () -> Void = {
+    reportIssue("Unimplemented: \(SyncUpDetailModel.self).onConfirmDeletion")
+  }
   @ObservationIgnored
-  var onMeetingTapped: (Meeting) -> Void
-  @DependencyEndpoint
+  var onMeetingTapped: (Meeting) -> Void = { _ in
+    reportIssue("Unimplemented: \(SyncUpDetailModel.self).onMeetingTapped")
+  }
   @ObservationIgnored
-  var onMeetingStarted: (SyncUp) -> Void
-  @DependencyEndpoint
+  var onMeetingStarted: (SyncUp) -> Void = { _ in
+    reportIssue("Unimplemented: \(SyncUpDetailModel.self).onMeetingStarted")
+  }
   @ObservationIgnored
-  var onSyncUpUpdated: (SyncUp) -> Void
+  var onSyncUpUpdated: (SyncUp) -> Void = { _ in
+    reportIssue("Unimplemented: \(SyncUpDetailModel.self).onSyncUpUpdated")
+  }
 
   @CasePathable
   @dynamicMemberLookup

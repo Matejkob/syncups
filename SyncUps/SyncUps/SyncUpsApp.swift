@@ -23,10 +23,13 @@ struct UITestingView: View {
 
   var body: some View {
     withDependencies {
+      // NB: Dependencies to override for every UI test.
       $0.continuousClock = ContinuousClock()
       $0.date = DateGenerator { Date() }
       $0.soundEffectClient = .noop
       $0.uuid = UUIDGenerator { UUID() }
+
+      // NB: Dependencies to override on a test-by-test basis.
       switch testName {
       case "testAdd":
         $0.dataManager = .mock()
@@ -56,7 +59,7 @@ struct UITestingView: View {
         )
 
       default:
-        fatalError()
+        fatalError("Test not handled: \(testName)")
       }
     } operation: {
       AppView(model: AppModel(syncUpsList: SyncUpsListModel()))

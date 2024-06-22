@@ -26,9 +26,10 @@ final class SyncUpsListModel: ObservableObject {
   @ObservationIgnored
   @Dependency(\.uuid) var uuid
 
-  @DependencyEndpoint
   @ObservationIgnored
-  var onSyncUpTapped: (SyncUp) -> Void
+  var onSyncUpTapped: (SyncUp) -> Void = { _ in
+    reportIssue("Unimplemented: \(SyncUpsListModel.self).onSyncUpTapped")
+  }
 
   @CasePathable
   @dynamicMemberLookup
