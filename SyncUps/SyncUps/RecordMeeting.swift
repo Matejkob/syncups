@@ -25,7 +25,9 @@ final class RecordMeetingModel {
 
   @ObservationIgnored 
   var onMeetingFinished: (_ transcript: String) async -> Void = { _ in
-    reportIssue("Unimplemented: \(RecordMeetingModel.self).onMeetingFinished")
+    fatalError()
+    print("!?!?!?")
+    //reportIssue("Unimplemented: \(RecordMeetingModel.self).onMeetingFinished")
   }
 
   @CasePathable

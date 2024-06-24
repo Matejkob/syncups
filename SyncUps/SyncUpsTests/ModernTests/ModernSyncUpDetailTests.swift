@@ -3,10 +3,14 @@ import CustomDump
 import Dependencies
 import Testing
 
+@_spi(Experimental) import DependenciesTestSupport
 @testable import SyncUps
 
 @MainActor
-@Suite(.tags(.detail))
+@Suite(
+  .resetDependencies,
+  .tags(.detail)
+)
 struct ModernSyncUpDetailTests {
   @Test
   func speechRestricted() async throws {

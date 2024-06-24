@@ -3,11 +3,16 @@ import CustomDump
 import Dependencies
 import Testing
 
+@_spi(Experimental) import DependenciesTestSupport
 @testable import SyncUps
 
 @MainActor
+@Suite(
+  .resetDependencies
+  //, .recording(false)
+)
 struct ModernAppTests {
-  @Test
+  @Test(.tags(.record))
   func recordWithTranscript() async throws {
     let syncUp = SyncUp(
       id: SyncUp.ID(),
@@ -62,7 +67,7 @@ struct ModernAppTests {
     )
   }
 
-  @Test
+  @Test(.tags(.detail))
   @MainActor
   func delete() async throws {
     let model = try withDependencies {
@@ -90,7 +95,7 @@ struct ModernAppTests {
     #expect(model.syncUpsList.syncUps.isEmpty)
   }
 
-  @Test(.tags(.detail))
+  @Test
   @MainActor
   func detailEdit() async throws {
     let model = try withDependencies {

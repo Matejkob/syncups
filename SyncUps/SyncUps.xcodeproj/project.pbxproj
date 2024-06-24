@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2A368893298ADD2500E8C33A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A368892298ADD2500E8C33A /* App.swift */; };
 		CA1D22EA2991BC7000B529DE /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D22E92991BC7000B529DE /* AppTests.swift */; };
+		CA2B7E062C273D3600C04987 /* DependenciesTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CA2B7E052C273D3600C04987 /* DependenciesTestSupport */; };
+		CA2B7E082C27533F00C04987 /* ModernRecordMeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B7E072C27533F00C04987 /* ModernRecordMeetingTests.swift */; };
+		CA2B7E0A2C275AA700C04987 /* ModernSyncUpFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B7E092C275AA700C04987 /* ModernSyncUpFormTests.swift */; };
+		CA2B7E0C2C275B5300C04987 /* ModernSyncUpListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B7E0B2C275B5300C04987 /* ModernSyncUpListsTests.swift */; };
 		CA350C752984506E00434F8A /* SyncUpsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350C742984506E00434F8A /* SyncUpsApp.swift */; };
 		CA350CAF298450BF00434F8A /* SyncUpDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CA1298450BF00434F8A /* SyncUpDetail.swift */; };
 		CA350CB0298450BF00434F8A /* RecordMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA350CA2298450BF00434F8A /* RecordMeeting.swift */; };
@@ -63,6 +67,9 @@
 /* Begin PBXFileReference section */
 		2A368892298ADD2500E8C33A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		CA1D22E92991BC7000B529DE /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		CA2B7E072C27533F00C04987 /* ModernRecordMeetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernRecordMeetingTests.swift; sourceTree = "<group>"; };
+		CA2B7E092C275AA700C04987 /* ModernSyncUpFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSyncUpFormTests.swift; sourceTree = "<group>"; };
+		CA2B7E0B2C275B5300C04987 /* ModernSyncUpListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSyncUpListsTests.swift; sourceTree = "<group>"; };
 		CA350C712984506E00434F8A /* SyncUps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncUps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA350C742984506E00434F8A /* SyncUpsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncUpsApp.swift; sourceTree = "<group>"; };
 		CA350C812984506F00434F8A /* SyncUpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncUpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +119,7 @@
 			files = (
 				CAC7A5A12ABA374D00985FC1 /* ConcurrencyExtras in Frameworks */,
 				CA472C1B2C264418009FF124 /* CustomDump in Frameworks */,
+				CA2B7E062C273D3600C04987 /* DependenciesTestSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +133,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA2B7E0D2C275B5B00C04987 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				CAC7A5A22ABA375800985FC1 /* BaseTestCase.swift */,
+				CA5B317B2C2722A1009CBDC9 /* Tags.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		CA2B7E0E2C275CAA00C04987 /* ModernTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8A793E2C261DE800740E39 /* ModernAppTests.swift */,
+				CA2B7E072C27533F00C04987 /* ModernRecordMeetingTests.swift */,
+				CA5B31792C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift */,
+				CA2B7E092C275AA700C04987 /* ModernSyncUpFormTests.swift */,
+				CA2B7E0B2C275B5300C04987 /* ModernSyncUpListsTests.swift */,
+			);
+			path = ModernTests;
+			sourceTree = "<group>";
+		};
 		CA350C682984506E00434F8A = {
 			isa = PBXGroup;
 			children = (
@@ -167,15 +196,13 @@
 		CA350C842984506F00434F8A /* SyncUpsTests */ = {
 			isa = PBXGroup;
 			children = (
+				CA2B7E0E2C275CAA00C04987 /* ModernTests */,
+				CA2B7E0D2C275B5B00C04987 /* Internal */,
 				CA1D22E92991BC7000B529DE /* AppTests.swift */,
-				CAC7A5A22ABA375800985FC1 /* BaseTestCase.swift */,
-				CA8A793E2C261DE800740E39 /* ModernAppTests.swift */,
-				CA5B31792C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift */,
 				CA350CC62984518200434F8A /* RecordMeetingTests.swift */,
 				CA350CC92984518200434F8A /* SyncUpDetailTests.swift */,
 				CA350CC82984518200434F8A /* SyncUpFormTests.swift */,
 				CA350CC72984518200434F8A /* SyncUpsListTests.swift */,
-				CA5B317B2C2722A1009CBDC9 /* Tags.swift */,
 			);
 			path = SyncUpsTests;
 			sourceTree = "<group>";
@@ -261,6 +288,7 @@
 			packageProductDependencies = (
 				CAC7A5A02ABA374D00985FC1 /* ConcurrencyExtras */,
 				CA472C1A2C264418009FF124 /* CustomDump */,
+				CA2B7E052C273D3600C04987 /* DependenciesTestSupport */,
 			);
 			productName = SyncUpsTests;
 			productReference = CA350C812984506F00434F8A /* SyncUpsTests.xctest */;
@@ -388,14 +416,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2B7E0C2C275B5300C04987 /* ModernSyncUpListsTests.swift in Sources */,
 				CA8A793F2C261DE800740E39 /* ModernAppTests.swift in Sources */,
 				CA350CCD2984518200434F8A /* SyncUpDetailTests.swift in Sources */,
 				CAC7A5A32ABA375800985FC1 /* BaseTestCase.swift in Sources */,
 				CA350CCA2984518200434F8A /* RecordMeetingTests.swift in Sources */,
 				CA350CCB2984518200434F8A /* SyncUpsListTests.swift in Sources */,
+				CA2B7E082C27533F00C04987 /* ModernRecordMeetingTests.swift in Sources */,
 				CA5B317C2C2722A1009CBDC9 /* Tags.swift in Sources */,
 				CA5B317A2C264ABE009CBDC9 /* ModernSyncUpDetailTests.swift in Sources */,
 				CA1D22EA2991BC7000B529DE /* AppTests.swift in Sources */,
+				CA2B7E0A2C275AA700C04987 /* ModernSyncUpFormTests.swift in Sources */,
 				CA350CCC2984518200434F8A /* SyncUpFormTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -764,8 +795,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-dependencies.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.1;
+				branch = "swift-testing";
+				kind = branch;
 			};
 		};
 		CA472C192C264418009FF124 /* XCRemoteSwiftPackageReference "swift-custom-dump" */ = {
@@ -795,6 +826,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CA2B7E052C273D3600C04987 /* DependenciesTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA350CC32984515C00434F8A /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesTestSupport;
+		};
 		CA472C1A2C264418009FF124 /* CustomDump */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CA472C192C264418009FF124 /* XCRemoteSwiftPackageReference "swift-custom-dump" */;
